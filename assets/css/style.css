@@ -1,0 +1,52 @@
+body{
+    font-family: 'Pattaya', sans-serif;
+    font-size:1.3rem;
+    background-image:linear-gradient(to right,rgba(18, 156, 64, 0.63), rgba(100,120,222,0.8));
+    text-align: center;
+}
+
+.btn{
+    width: 200px;
+    padding:5px 3px;
+    border-radius: 10px;
+    background-color: rgba(14, 58, 38,8.0);
+    color:#fff;
+    cursor: pointer;
+}
+.modal{
+    position: absolute;
+    top:50%;
+    left:50%;
+    width:70%;
+    margin: 0 auto;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 5px;
+    padding:2rem;
+    z-index: 10;
+    box-shadow: 0 3rem 5rem rgba(0,0,0,0.5);
+}
+.close {
+    cursor: pointer;
+    position: absolute;
+    top: 5%;
+    right: 0%;
+    padding: 2px 12px;
+    transform: translate(0%, -50%);
+    border-radius: 0.3rem;
+  }
+  .close:hover {background: rgb(226, 234, 236);}
+.overlay {
+    position: fixed; /* Sit on top of the page content */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  }
+.hidden{
+    display: none;
+}
